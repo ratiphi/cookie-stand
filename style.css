@@ -6,14 +6,14 @@ body {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: #A95627;
 }
 
 /* app styles */
 
 header {
   height: 100px;
-  background: #444;
+  background: #00B2B0;
 }
 
 header div {
@@ -21,27 +21,18 @@ header div {
   margin: 0 auto;
 }
 
-header div h1 {
-  float: left;
-  margin-left: 100px;
-  margin-right: 50px;
-  margin-top: 20px;
-  color: #fff;
-  font-size: 60px;
-}
-
-header div p {
+header div img {
   float: left;
   margin-right: 50px;
-  margin-top: 45px;
-  color: #fff;
-  font-size: 30px;
+  margin-top: 15px;
 }
 
 nav ul li {
   display: inline-block;
   margin-right: 70px;
   margin-top: 45px;
+  font-family: 'Alegreya SC';
+  font-size: 23px;
 }
 
 main {
@@ -49,8 +40,9 @@ main {
   margin: 30px auto;
 }
 
-main img {
-  margin-bottom: 30px;
+main h1 {
+    font-family: 'Alegreya SC';
+    font-size: 50px;
 }
 
 .sub-banners {
