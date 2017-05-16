@@ -36,6 +36,10 @@ StoreLocation.prototype.randHourlySales = function() {
   document.body.appendChild(elList);
 };
 
+StoreLocation.prototype.totalCookies = function() {
+  return Math.floor(Math.random() * (this.maxCust - this.minCust)) + this.minCust;
+};
+
 // var firstAndPike = new StoreLocation('1st and Pike', 23, 65, 6.3);
 
 
