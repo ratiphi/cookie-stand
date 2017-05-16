@@ -1,3 +1,5 @@
+'use strict';
+
 var firstAndPike = {
   name: '1st and Pike',
   minCust: 23,
