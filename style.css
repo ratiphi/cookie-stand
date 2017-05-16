@@ -1,0 +1,73 @@
+/* global styles */
+
+body {
+  font-family: helvetica;
+}
+
+a {
+  text-decoration: none;
+  color: #A95627;
+}
+
+/* app styles */
+
+header {
+  height: 100px;
+  background: #00B2B0;
+}
+
+header div {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header div img {
+  float: left;
+  margin-right: 50px;
+  margin-top: 15px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 70px;
+  margin-top: 45px;
+  font-family: 'Alegreya SC';
+  font-size: 23px;
+}
+
+main {
+  width: 960px;
+  margin: 30px auto;
+}
+
+main h1 {
+    font-family: 'Alegreya SC';
+    font-size: 50px;
+}
+
+.sub-banners {
+  margin-top: 30px;
+}
+
+.sub-banners li {
+  float: left;
+  margin-right: 30px;
+}
+
+.sub-banners li:nth-child(3) {
+  margin-right: 0;
+}
+
+.featured-content img {
+  float: left;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+
+section h2 {
+
+}
+
+section p {
+
+}
