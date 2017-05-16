@@ -1,3 +1,5 @@
+'use strict';
+
 function StoreLocation(name, minCust, maxCust, avgPerHour) {
   this.name = name;
   this.minCust = minCust;
@@ -30,8 +32,6 @@ var seatacAirport = new StoreLocation('SeaTac Airport', 3, 24, 1.2);
 var seattleCenter = new StoreLocation('Seattle Center', 11, 38, 3.7);
 var capitolHill = new StoreLocation('Capitol Hill', 20, 38, 2.3);
 var alki = new StoreLocation('Alki', 2, 16, 4.6);
-
-var allLocations = [firstAndPike, seatacAirport, seattleCenter, capitolHill, alki];
 
 firstAndPike.render();
 seatacAirport.render();
