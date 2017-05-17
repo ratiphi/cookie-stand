@@ -1,6 +1,5 @@
 'use strict';
 
-
 // constructor function to create new store locations
 function StoreLocation(name, minCust, maxCust, avgPerCust) {
   this.name = name;
