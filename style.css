@@ -9,6 +9,15 @@ a {
   color: #A95627;
 }
 
+thead {
+  background: #999;
+}
+
+td {
+  padding: 10px;
+  border: solid 1px black;
+}
+
 /* app styles */
 
 header {
