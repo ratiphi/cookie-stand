@@ -3,10 +3,31 @@
   <head>
     <title>Pat's Salmon Cookies</title>
     <link rel="stylesheet" href="reset.css">
-    <link href='https://fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya SC" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <!-- THIS LINE STARTS THE NEW STUFF -->
+    <form id="store_form">
+      <fieldset>
+        <label for="inputName">Store name</label>
+        <input type="text" name="inputName" placeholder="Enter new store name here" required>
+      </fieldset>
+      <fieldset>
+        <label for="minCust">Minimum customers</label>
+        <input type="text" name="minCust" placeholder="Enter a number for minimum customers" required>
+      </fieldset>
+      <fieldset>
+        <label for="maxCust">Maximum customers</label>
+        <input type="text" name="maxCust" placeholder="Enter a number for maximum customers" required>
+      </fieldset>
+      <fieldset>
+        <label for="inputAvgPerCust">Average cookies per customer</label>
+        <input type="text" name="inputAvgPerCust" placeholder="Enter a number for average cookies per customer" required>
+      </fieldset>
+      <button id="submit-button" type="submit">Add New Store</button>
+    </form>
+    <!-- THIS LINE ENDS THE NEW STUFF -->
     <table>
       <thead id="tablehead">
 

@@ -1,5 +1,7 @@
 'use strict';
 
+var elForm = document.getElementById('store_form');
+
 // constructor function to create new store locations
 function StoreLocation(name, minCust, maxCust, avgPerCust) {
   this.name = name;
@@ -34,6 +36,21 @@ StoreLocation.prototype.render = function() {
   elNewRow.innerHTML = arrData.join('');
   elTable.appendChild(elNewRow);
 };
+
+// function to grab data from form and store it in
+function getFormData(event) {
+  event.preventDefault();
+
+  var name = event.target.inputName.value;
+  var minCust = parseInt(event.target.minCust.value);
+  var maxCust = parseInt(event.target.maxCust.value);
+  var avgPerCust = parseFloat(event.target.inputAvgPerCust.value);
+
+  var newStore = new StoreLocation(name, minCust, maxCust, avgPerCust);
+  console.log(newStore);
+  newStore.render();
+  elForm.reset();
+}
 
 // function to print the header for the table
 function printHeader() {
@@ -85,7 +102,7 @@ capitolHill.render();
 alki.render();
 printFooter();
 
-
+elForm.addEventListener('submit', getFormData);
 
 
 
