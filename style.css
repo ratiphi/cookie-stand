@@ -6,7 +6,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #A95627;
+  color: #00B2B0;
 }
 
 fieldset {
@@ -55,7 +55,7 @@ td {
 
 header {
   height: 100px;
-  background: #00B2B0;
+  background: #777;
 }
 
 header div {
@@ -85,6 +85,12 @@ main {
 main h1 {
     font-family: 'Alegreya SC';
     font-size: 50px;
+}
+
+main section th {
+  text-align: right;
+  padding: 10px;
+  border: solid 1px #000;
 }
 
 .sub-banners {
