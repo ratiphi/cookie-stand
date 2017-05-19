@@ -66,20 +66,25 @@ header div {
 header div img {
   float: left;
   margin-right: 50px;
-  margin-top: 15px;
+  margin-top: 22px;
 }
 
 nav ul li {
   display: inline-block;
-  margin-right: 70px;
-  margin-top: 45px;
+  margin-right: 40px;
+  margin-top: 60px;
   font-family: 'Alegreya SC';
-  font-size: 23px;
+  font-size: 29px;
 }
 
 main {
   width: 960px;
   margin: 30px auto;
+}
+
+main img {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 main h1 {
@@ -112,10 +117,13 @@ main section th {
   margin-right: 30px;
 }
 
-section h2 {
-
+.columns p {
+  width: 300px;
+  float: left;
+  margin-right: 30px;
+  outline: dotted 1px orange;
 }
 
-section p {
-
+.columns p:nth-child(3) {
+  margin-right: 0px;
 }
